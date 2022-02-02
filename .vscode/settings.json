@@ -1,0 +1,17 @@
+{
+    "vssolution.xxprojItemTypes": {
+
+        "*": "Content",
+        "cs": "Compile",
+        "cpp": "ClCompile",
+        "cc": "ClCompile",
+        "c": "ClCompile",
+        "h": "ClInclude",
+        "hpp": "ClInclude",
+        "vb": "Compile",
+        "fs": "Compile",
+        "ts": "TypeScriptCompile"
+    },
+    "typescript.format.insertSpaceAfterOpeningAndBeforeClosingNonemptyBraces": false,
+    "javascript.format.insertSpaceAfterOpeningAndBeforeClosingNonemptyBraces": false,
+}

@@ -1,0 +1,22 @@
+POST http://localhost:3600/points/ HTTP/1.1
+content-type: application/json
+
+{
+    "x": 3,
+    "y": 9
+}
+
+###
+GET http://localhost:3600/points/ HTTP/1.1
+
+###
+GET http://localhost:3600/points/5f28179c785a160dc01255c2 HTTP/1.1
+
+###
+DELETE http://localhost:3600/points/ HTTP/1.1
+
+###
+DELETE http://localhost:3600/points/5f28179c785a160dc01255c2 HTTP/1.1
+
+###
+GET http://localhost:3600/lines/3 HTTP/1.1
